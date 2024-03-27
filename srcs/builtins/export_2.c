@@ -83,7 +83,8 @@ int	ms_is_param_ok(char	*param)
 
 int	ms_is_param_new(char *param, t_env *envp)
 {
-	size_t	pos_equal;
+	//size_t	pos_equal;
+	int	pos_equal;
 
 	if (ft_strchr(param, '+'))
 		pos_equal = ft_strchr(param, '+') - param;
